@@ -4,7 +4,7 @@ metadata:
   name: my-awesome-app
   namespace: dev
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: my-awesome-app
