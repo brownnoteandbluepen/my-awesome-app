@@ -24,7 +24,7 @@ jobs:
         run: |
           docker build \
             -t ${{ secrets.DOCKERHUB_USERNAME }}/my-awesome-app:v1 \
-            ./apps/my-awesome-app
+            .
 
       - name: Push Docker image
         run: |
