@@ -4,7 +4,7 @@ metadata:
   name: my-awesome-app
   namespace: dev
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: my-awesome-app
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: my-awesome-app
-          image: brownnoteandbluepen/my-awesome-app:v1
+          image: brownnoteandbluepen/my-awesome-app:v3
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
