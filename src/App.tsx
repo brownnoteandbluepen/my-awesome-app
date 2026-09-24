@@ -17,7 +17,7 @@ function App() {
         </div>
         <div>
           <h1>Get started</h1>
-          <h3 >Oh no, V6  with Ingress, fixed is out!</h3>
+          <h3 >Oh no, V7  with Ingress, fixed is out!</h3>
           <p>
             Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
           </p>
