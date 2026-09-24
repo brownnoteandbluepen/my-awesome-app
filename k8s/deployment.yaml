@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: my-awesome-app
-          image: brownnoteandbluepen/my-awesome-app:v4
+          image: brownnoteandbluepen/my-awesome-app:v5
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80

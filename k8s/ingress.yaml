@@ -1,0 +1,13 @@
+kind: Ingress
+spec:
+  rules:
+    - host: my-awesome-app.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: my-awesome-app
+                port:
+                  number: 80
